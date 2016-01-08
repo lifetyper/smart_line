@@ -8,6 +8,8 @@ from time import sleep
 
 class MyI2C(FT232H.I2CDevice):
     def readList(self, register, length):
+        """Read a length number of bytes from the specified register.  Results
+        will be returned as a bytearray."""
         if length <= 0:
             raise ValueError("Length must be at least 1 byte.")
         self._idle()
@@ -69,11 +71,8 @@ class SmartLineEEPROM(object):
         self.i2c.writeList(addr, data_list)
         self.wait_busy()
 
-    def read_page(self,addr,count):
-        return self.i2c.readList(addr,count)
+    def read_page(self, addr, count):
+        return self.i2c.readList(addr, count)
 
 
-rom = SmartLineEEPROM(slave_addr=0x50)
-rom.write_page(0x00, 'hello smart line!herere', 16)
 
-print(rom.read_page(0x00,16))
