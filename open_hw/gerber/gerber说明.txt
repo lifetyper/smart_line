@@ -1,0 +1,9 @@
+smartline.drl×ê¿×ÎÄ¼ş
+smartline-drl_map.gbr,×ê¿×±í
+smartline-B.Cu.gbr,Bottom×ßÏß²ã
+smartline-F.Cu.gbr,Top×ßÏß²ã
+smartline-B.Mask.gbr,Bottom ×èº¸²ã
+smartline-F.Mask.gbr,Top×èº¸²ã
+smartline-B.SilkS.gbr,BottomË¿Ó¡²ã
+smartline-F.SilkS.gbr,TopË¿Ó¡²ã
+smartline-edge.Cuts.gbr,°åÍâ¿òÍ¼
