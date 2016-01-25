@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP WCM2012
+D Filtre EMI
+K EMI
+$ENDCMP
+#
+$CMP WM2012
+D Filtre EMI
+K EMI
+$ENDCMP
+#
+#End Doc Library
