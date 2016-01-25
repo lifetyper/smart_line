@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:/Dropbox/Git/smart_line/open_hw/smartline.sch)
-    (date "23/01/2016 21:10:49")
+    (date "25/01/2016 15:13:19")
     (tool "Eeschema 4.0.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -597,14 +597,14 @@
       (uri D:\Dropbox\Kicad_Library\lib\ftdi.lib))
     (library (logical filter)
       (uri D:\Dropbox\Kicad_Library\lib\filter.lib))
-    (library (logical my_connector)
-      (uri D:\Dropbox\Kicad_Library\lib\my_connector.lib))
     (library (logical my_74)
       (uri D:\Dropbox\Kicad_Library\lib\my_74.lib))
-    (library (logical my_esd)
-      (uri D:\Dropbox\Kicad_Library\lib\my_esd.lib))
     (library (logical my_crystal)
-      (uri D:\Dropbox\Kicad_Library\lib\my_crystal.lib)))
+      (uri D:\Dropbox\Kicad_Library\lib\my_crystal.lib))
+    (library (logical my_connector)
+      (uri D:\Dropbox\Kicad_Library\lib\my_connector.lib))
+    (library (logical my_esd)
+      (uri D:\Dropbox\Kicad_Library\lib\my_esd.lib)))
   (nets
     (net (code 1) (name /Sheet_93LC56B/EE_DATA)
       (node (ref U1) (pin 43))
