@@ -1483,9 +1483,9 @@ C3
 Text Label 10250 2700 0    50   ~ 0
 7.5M_CLK
 Text Label 10250 2800 0    50   ~ 0
-3.3V_OUT
++3.3V_OUT
 Text Label 10250 2900 0    50   ~ 0
-5V_OUT
++5V_OUT
 Text Label 10250 3000 0    50   ~ 0
 GND
 $Comp
